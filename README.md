@@ -28,6 +28,12 @@ This is a simple CRUD (Create, Read, Update, Delete) application for images. The
 
 ## How to Run the Project
 
+1. Install dependencies from the base directory.
+
+   ```bash
+   npm install
+   ```
+
 ### Backend
 
 1. Navigate to the backend directory.
@@ -66,7 +72,6 @@ This is a simple CRUD (Create, Read, Update, Delete) application for images. The
 
   ```
   VITE_SERVER_PORT=4000
-
   ```
 
 4. Run the React app.
@@ -75,4 +80,4 @@ This is a simple CRUD (Create, Read, Update, Delete) application for images. The
    npm run build && npm run preview
    ```
 
-Your frontend app should now be running at `http://localhost:[PORT]/`, and your backend should be running at `http://localhost:4000/`.
+Your frontend app should now be running at `http://localhost:5173/`, or another port if that's in use, and your backend should be running at `http://localhost:4000/`.
